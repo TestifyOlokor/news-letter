@@ -1,0 +1,59 @@
+main{
+    padding-top: 3.5rem;
+    background-color: darkslategrey;
+    height: 93vh;
+    text-align: left;
+    
+}
+main h1{
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 24px;
+    letter-spacing: 2px;
+}
+
+main p{
+    font-family: "roboto";
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+}
+
+
+
+main .test{
+    width: 30%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 2rem;
+    align-items: center;
+    margin-top: 9rem;
+}
+
+.rs-c{
+    width: 98%;
+}
+
+.buttons{
+    width: 96%;
+    padding: 0.9rem;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin-top: 1rem;
+    color: #ffffff;
+    font-family: "roboto";
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    background-color: darkslategrey;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.buttons:hover {
+    background-color: palevioletred; /* Change to the desired color when hovering */
+}

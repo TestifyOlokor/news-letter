@@ -1,0 +1,53 @@
+main{
+    padding-top: 3.5rem;
+    background-color: darkslategrey;
+    height: 93vh;
+    text-align: left;
+    
+}
+main h1{
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 24px;
+    letter-spacing: 2px;
+}
+
+main p{
+    font-family: "roboto";
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+}
+
+main section .main-container{
+    width: 45%;
+}
+
+main section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 5%;
+    padding: 2rem;
+    align-items: center;
+}
+
+.sm-container{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: space-between;
+}
+
+.cm-container{
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    justify-content: space-between;
+}
+
